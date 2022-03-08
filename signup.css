@@ -1,0 +1,84 @@
+body {font-family: Arial, Helvetica, sans-serif; background-image: url("images/b2.jpg");  background-size: cover;}
+* {box-sizing: border-box}
+
+#logo{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1vh;
+}
+#logo a{
+  text-decoration: none;
+  color : white;
+  
+} 
+
+form{
+  border:1px solid #ccc;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 1vw;
+  background-color: rgba(0,0,0,0.2);
+}
+
+input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input{
+  background-color: #ddd;
+  outline: none;
+}
+input[type=radio]{
+  width: unset;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 48%;
+  opacity: 0.8;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  opacity:1;
+}
+
+
+input[type=reset]{
+  background-color: orangered;
+}
+input[type=submit]{
+  float: right;
+}
+.container {
+  padding: 40px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
